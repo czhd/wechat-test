@@ -27,7 +27,9 @@ Page({
       }
     })
   },
-
+  getPhoneNumber(e) {
+    console.log(e.detail)
+  },
   onVerifyToken() {
     wx.request({
       url: 'http://localhost:8081/v1/token/verify',

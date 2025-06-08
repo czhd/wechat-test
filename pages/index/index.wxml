@@ -1,6 +1,6 @@
 <l-button l-class="btn" size="long" bind:lintap="onGetToken">获取Token</l-button>
 <l-button l-class="btn" size="long" bind:lintap="onVerifyToken">验证Token</l-button>
-
+<l-button l-class="btn" size="long"  open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">手机号</l-button>
 <l-button l-class="btn" size="long" bind:lintap="onTestInterceptor">测试拦截机制</l-button>
 
 <l-button type="warning" l-class="btn" size="long" bind:lintap="onCollectCoupon">领取优惠券</l-button>
